@@ -19,8 +19,8 @@ snow_list = []
  
 # Loop 50 times and add a snow flake in a random x,y position
 for i in range(50):
-    x = random.randrange(0, 400)
-    y = random.randrange(0, 400)
+    x = random.randrange(0, 200)
+    y = random.randrange(0, 200)
     snow_list.append([x, y])
  
 clock = pygame.time.Clock()
